@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Echipa</title>
+	<style>
+	 body {
+            background-image: url('https://4kwallpapers.com/images/wallpapers/fc-bayern-munich-5120x2880-14117.png');
+            background-size: cover;
+            height: 100vh;
+	font-family: Arial, sans-serif;
+	color: white;
+	size: 50px;
+        }
+	.card-table {
+    width: 100%; 
+    border-collapse: collapse;
+}
+	.principal {
+            position: relative;
+            width: 250px;
+            height: 320px;
+		display:flex;
+		font-size: 20px;
+        }
+
+        .cartea {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            transform-style: preserve-3d;
+            transition: all 1s ease;
+	transition: transform 1s ease-in-out; /* Adjust the easing function */
+            background: linear-gradient(45deg, #DC143C, #000000);
+            top: 0;
+            left: 0;
+		border-radius: 10px
+		margin: 20px;
+		display: inline-block;
+		float: left;
+		z-index: 3;
+        }
+
+        .fata {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            backface-visibility: hidden;
+            background-image: url('https://img.fcbayern.com/image/upload/t_cms-portrait/f_auto/w_660%2Cc_fill/q_auto/v1687851641/cms/public/images/fcbayern-com/players/spielerportraits/ganzkoerper/manuel_neuer.png');
+		background-size: cover;
+		}
+
+        .spate {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            backface-visibility: hidden;
+            background: #333;
+            color: #333;
+            transform: rotateY(180deg);
+		padding: 20px
+		display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+	font-family: Arial, sans-serif;
+	color: white;
+	font-size: 20px;
+	z-index: 2;
+        }
+
+        .cartea:hover {
+            transform: rotateY(180deg);
+        }
+	.carte-sus {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            color: White;
+            font-size: 40px;
+            font-weight: bold;
+	}
+.principal2 {
+            position: relative;
+            width: 250px;
+            height: 320px;
+		display:flex;
+		font-size: 20px;
+        }
+.principal3 {
+            position: relative;
+            width: 250px;
+            height: 320px;
+		display:flex;
+		font-size: 20px;
+        }
+.principal4 {
+            position: relative;
+            width: 250px;
+            height: 320px;
+		display:flex;
+		font-size: 20px;
+        }
+.principal5 {
+            position: relative;
+            width: 250px;
+            height: 320px;
+		display:flex;
+		font-size: 20px;
+        }
+.principal6 {
+            position: relative;
+            width: 250px;
+            height: 320px;
+		display:flex;
+		font-size: 20px;
+        }
+.principal7 {
+            position: relative;
+            width: 250px;
+            height: 320px;
+		display:flex;
+		font-size: 20px;
+        }
+.principal8 {
+            position: relative;
+            width: 250px;
+            height: 320px;
+		display:flex;
+		font-size: 20px;
+        }
+.principal9 {
+            position: relative;
+            width: 250px;
+            height: 320px;
+		display:flex;
+		font-size: 20px;
+        }
+.principal10 {
+            position: relative;
+            width: 250px;
+            height: 320px;
+		display:flex;
+		font-size: 20px;
+        }
+.principal11 {
+            position: relative;
+            width: 250px;
+            height: 320px;
+		display:flex;
+		font-size: 20px;
+        }
+.principal12 {
+            position: relative;
+            width: 250px;
+            height: 320px;
+		display:flex;
+		font-size: 20px;
+        }
+.principal13 {
+            position: relative;
+            width: 250px;
+            height: 320px;
+		display:flex;
+		font-size: 20px;
+        }
+.principal14 {
+            position: relative;
+            width: 250px;
+            height: 320px;
+		display:flex;
+		font-size: 20px;
+        }
+.principal15 {
+            position: relative;
+            width: 250px;
+            height: 320px;
+		display:flex;
+		font-size: 20px;
+        }
+.principal16 {
+            position: relative;
+            width: 250px;
+            height: 320px;
+		display:flex;
+		font-size: 20px;
+        }
+.principal17 {
+            position: relative;
+            width: 250px;
+            height: 320px;
+		display:flex;
+		font-size: 20px;
+        }
+.principal18 {
+            position: relative;
+            width: 250px;
+            height: 320px;
+		display:flex;
+		font-size: 20px;
+        }
+.principal9 {
+            position: relative;
+            width: 250px;
+            height: 320px;
+		display:flex;
+		font-size: 20px;
+        }
+.principal20 {
+            position: relative;
+            width: 250px;
+            height: 320px;
+		display:flex;
+		font-size: 20px;
+        }
+.principal21 {
+            position: relative;
+            width: 250px;
+            height: 320px;
+		display:flex;
+		font-size: 20px;
+        }
+.principal22 {
+            position: relative;
+            width: 250px;
+            height: 320px;
+		display:flex;
+		font-size: 20px;
+        }
+.principal23 {
+            position: relative;
+            width: 250px;
+            height: 320px;
+		display:flex;
+		font-size: 20px;
+        }
+.principal24 {
+            position: relative;
+            width: 250px;
+            height: 320px;
+		display:flex;
+		font-size: 20px;
+        }
+.principal25 {
+            position: relative;
+            width: 250px;
+            height: 320px;
+		display:flex;
+		font-size: 20px;
+        }
+
+    </style>
+</head>
+<body>
+<table height=70% width=60% border="0">
+        <tr>
+<td colspan=3 style="border: 0;"><font face="Arial, sans-serif" size=20>Portari</td>
+</tr>
+<td style="border: 0;" align="center"><div class="principal">
+
+        <div class="cartea">
+	<div class="fata">
+            <div class="carte-sus">1</div>
+            Manuel Neuer
+        </div>
+        <div class="spate">Clean-sheet-uri: 9<br>
+            Meciuri jucate: 25<br>
+            Penalti-uri salvate: 1<br>
+            Minute jucate: 2250
+    </div>
+</div>
+<td style="border: 0;" align="center">
+<div class="principal2">
+
+        <div class="cartea">
+	<div class="fata" style="background-image: url('https://img.fcbayern.com/image/upload/t_cms-portrait/f_auto/w_660%2Cc_fill/q_auto/v1692987763/cms/public/images/fcbayern-com/players/spielerportraits/teaser/daniel-peretz.png');">
+            <div class="carte-sus">18</div>
+            Daniel Peretz
+        </div>
+        <div class="spate">Clean-sheet-uri: 4<br>
+            Meciuri jucate: 15<br>
+            Penalti-uri salvate: /<br>
+            Minute jucate: 1350
+    </div>
+</div>
+<td style="border: 0;" align="center">
+<div class="principal3">
+
+        <div class="cartea">
+	<div class="fata" style="background-image: url('https://img.fcbayern.com/image/upload/t_cms-portrait/f_auto/w_660%2Cc_fill/q_auto/v1656615996/cms/public/images/fcbayern-com/players/spielerportraits/ganzkoerper/sven_ulreich.png');">
+            <div class="carte-sus">26</div>
+            Sven Ulreich
+        </div>
+        <div class="spate">Clean-sheet-uri: 9<br>
+            Meciuri jucate: 25<br>
+            Penalti-uri salvate: 1<br>
+            Minute jucate: 2250
+    </div>
+</div>
+</table>
+<table height=70% width=60% border="0">
+        <tr>
+<td colspan=3 style="border: 0;"><font face="Arial, sans-serif" size=20>Fundasi</td>
+</tr>
+<td style="border: 0;" align="center">
+<div class="principal4">
+
+        <div class="cartea">
+	<div class="fata" style="background-image: url('https://img.fcbayern.com/image/upload/t_cms-portrait/f_auto/w_660%2Cc_fill/q_auto/v1656614772/cms/public/images/fcbayern-com/players/spielerportraits/ganzkoerper/dayot_upamecano.png');">
+            <div class="carte-sus">2</div>
+            Dayot Upamecano
+        </div>
+        <div class="spate">Goluri: 1<br>
+            Meciuri jucate: 28<br>
+            Assist-uri: /<br>
+            Minute jucate: 2096
+    </div>
+</div>
+<td style="border: 0;" align="center">
+<div class="principal5">
+
+        <div class="cartea">
+	<div class="fata" style="background-image: url('https://img.fcbayern.com/image/upload/t_cms-portrait/f_auto/w_660%2Cc_fill/q_auto/v1689695039/cms/public/images/fcbayern-com/players/spielerportraits/teaser/minjae-kim.png');">
+            <div class="carte-sus">3</div>
+            Minjae-kim
+        </div>
+        <div class="spate">Goluri: 1<br>
+            Meciuri jucate: 29<br>
+            Assist-uri: 1<br>
+            Minute jucate: 2377
+    </div>
+</div>
+<td style="border: 0;" align="center">
+<div class="principal6">
+
+        <div class="cartea">
+	<div class="fata" style="background-image: url('https://img.fcbayern.com/image/upload/t_cms-portrait/f_auto/w_660%2Cc_fill/q_auto/v1659953193/cms/public/images/fcbayern-com/players/spielerportraits/ganzkoerper/matthijs-de-ligt.png');">
+            <div class="carte-sus">4</div>
+            Matthijs-de-ligt
+        </div>
+        <div class="spate">Goluri: 2<br>
+            Meciuri jucate: 25<br>
+            Assist-uri: 1<br>
+            Minute jucate: 1595
+    </div>
+</div>
+<td style="border: 0;" align="center">
+<div class="principal7">
+
+        <div class="cartea">
+	<div class="fata" style="background-image: url('https://img.fcbayern.com/image/upload/t_cms-portrait/f_auto/w_660%2Cc_fill/q_auto/v1704991485/cms/public/images/fcbayern-com/players/spielerportraits/ganzkoerper/eric-dier.png');">
+            <div class="carte-sus">15</div>
+            Eric Dier
+        </div>
+        <div class="spate">Goluri: /<br>
+            Meciuri jucate: 13<br>
+            Assist-uri: /<br>
+            Minute jucate: 1031
+    </div>
+</div>
+</tr>
+<td style="border: 0;" align="center">
+<div class="principal8">
+
+        <div class="cartea">
+	<div class="fata" style="background-image: url('https://img.fcbayern.com/image/upload/t_cms-portrait/f_auto/w_660%2Cc_fill/q_auto/v1656615722/cms/public/images/fcbayern-com/players/spielerportraits/ganzkoerper/alphonso_davies.png');">
+            <div class="carte-sus">19</div>
+            Alphonso Davies
+        </div>
+        <div class="spate">Goluri: 1<br>
+            Meciuri jucate: 35<br>
+            Assist-uri: 4<br>
+            Minute jucate: 2564
+    </div>
+</div>
+<td style="border: 0;" align="center">
+<div class="principal9">
+
+        <div class="cartea">
+	<div class="fata" style="background-image: url('https://img.fcbayern.com/image/upload/t_cms-portrait/f_auto/w_660%2Cc_fill/q_auto/v1656615788/cms/public/images/fcbayern-com/players/spielerportraits/ganzkoerper/bouna_sarr.png');">
+            <div class="carte-sus">20</div>
+            Bouna Sarr
+        </div>
+        <div class="spate">Goluri: /<br>
+            Meciuri jucate: 5<br>
+            Assist-uri: 1<br>
+            Minute jucate: 204
+    </div>
+</div>
+<td style="border: 0;" align="center">
+<div class="principal10">
+
+        <div class="cartea">
+	<div class="fata" style="background-image: url('https://img.fcbayern.com/image/upload/t_cms-portrait/f_auto/w_660%2Cc_fill/q_auto/v1687514017/cms/public/images/fcbayern-com/players/spielerportraits/ganzkoerper/raphael-guerreiro.png');">
+            <div class="carte-sus">22</div>
+            Raphaël Guerreiro
+        </div>
+        <div class="spate">Goluri: 3<br>
+            Meciuri jucate: 24<br>
+            Assist-uri: 1<br>
+            Minute jucate: 1377
+    </div>
+</div>
+<td style="border: 0;" align="center">
+<div class="principal11">
+
+        <div class="cartea">
+	<div class="fata" style="background-image: url('https://img.fcbayern.com/image/upload/t_cms-portrait/f_auto/w_660%2Cc_fill/q_auto/v1706387443/cms/public/images/fcbayern-com/players/spielerportraits/ganzkoerper/sacha-boey.png');">
+            <div class="carte-sus">23</div>
+            Sacha Boey
+        </div>
+        <div class="spate">Goluri: /<br>
+            Meciuri jucate: 2<br>
+            Assist-uri: /<br>
+            Minute jucate: 109
+    </div>
+</div>
+</tr>
+<td style="border: 0;" align="center">
+<div class="principal12">
+
+        <div class="cartea">
+	<div class="fata" style="background-image: url('https://img.fcbayern.com/image/upload/t_cms-portrait/f_auto/w_660%2Cc_fill/q_auto/v1687856498/cms/public/images/fcbayern-com/players/spielerportraits/teaser/Tarek-Buchmann.png');">
+            <div class="carte-sus">28</div>
+            Tarek Buchmann
+        </div>
+        <div class="spate">Goluri: /<br>
+            Meciuri jucate: /<br>
+            Assist-uri: /<br>
+            Minute jucate: /
+    </div>
+</div>
+<td style="border: 0;" align="center">
+<div class="principal13">
+
+        <div class="cartea">
+	<div class="fata" style="background-image: url('https://img.fcbayern.com/image/upload/t_cms-portrait/f_auto/w_660%2Cc_fill/q_auto/v1653464477/cms/public/images/fcbayern-com/players/spielerportraits/ganzkoerper/noussair_mazraoui.png');">
+            <div class="carte-sus">40</div>
+           Noussair Mazraoui
+        </div>
+        <div class="spate">Goluri: /<br>
+            Meciuri jucate: 23<br>
+            Assist-uri: 4<br>
+            Minute jucate: 1611
+    </div>
+</div>
+</table>
+<table height=70% width=60% border="0">
+        <tr>
+<td colspan=3 style="border: 0;"><font face="Arial, sans-serif" size=20>Mijlocasi</td>
+</tr>
+<td style="border: 0;" align="center">
+<div class="principal14">
+
+        <div class="cartea">
+	<div class="fata" style="background-image: url('https://img.fcbayern.com/image/upload/t_cms-portrait/f_auto/w_660%2Cc_fill/q_auto/v1656614911/cms/public/images/fcbayern-com/players/spielerportraits/ganzkoerper/joshua_kimmich.png');">
+            <div class="carte-sus">6</div>
+           Joshua Kimmich
+        </div>
+        <div class="spate">Goluri: 1<br>
+            Meciuri jucate: 35<br>
+            Assist-uri: 9<br>
+            Minute jucate: 2842
+    </div>
+</div>
+<td style="border: 0;" align="center">
+<div class="principal15">
+
+        <div class="cartea">
+	<div class="fata" style="background-image: url('https://img.fcbayern.com/image/upload/t_cms-portrait/f_auto/w_660%2Cc_fill/q_auto/v1660123320/cms/public/images/fcbayern-com/players/spielerportraits/ganzkoerper/leon_goretzka.png');">
+            <div class="carte-sus">8</div>
+           Leon Goretzka
+        </div>
+        <div class="spate">Goluri: 4<br>
+            Meciuri jucate: 35<br>
+            Assist-uri: 8<br>
+            Minute jucate: 2572
+    </div>
+</div>
+<td style="border: 0;" align="center">
+<div class="principal16">
+
+        <div class="cartea">
+	<div class="fata" style="background-image: url('https://img.fcbayern.com/image/upload/t_cms-portrait/f_auto/w_660%2Cc_fill/q_auto/v1686144311/cms/public/images/fcbayern-com/players/spielerportraits/ganzkoerper/konrad-laimer.png');">
+            <div class="carte-sus">27</div>
+          Konrad Leimer
+        </div>
+        <div class="spate">Goluri: 1<br>
+            Meciuri jucate: 36<br>
+            Assist-uri: 2<br>
+            Minute jucate: 2291
+    </div>
+</div>
+<td style="border: 0;" align="center">
+<div class="principal17">
+
+        <div class="cartea">
+	<div class="fata" style="background-image: url('https://img.fcbayern.com/image/upload/t_cms-portrait/f_auto/w_660%2Cc_fill/q_auto/v1627304019/cms/public/images/fcbayern-com/players/spielerportraits/ganzkoerper/jamal_musiala.png');">
+            <div class="carte-sus">42</div>
+           Jamal Musiala
+        </div>
+        <div class="spate">Goluri: 12<br>
+            Meciuri jucate: 35<br>
+            Assist-uri: 7<br>
+            Minute jucate: 2594
+    </div>
+</div>
+</tr>
+<td style="border: 0;" align="center">
+<div class="principal18">
+
+        <div class="cartea">
+	<div class="fata" style="background-image: url('https://img.fcbayern.com/image/upload/t_cms-portrait/f_auto/w_660%2Cc_fill/q_auto/v1698928615/cms/public/images/fcbayern-com/players/spielerportraits/ganzkoerper/aleksandar-pavlovic.png');">
+            <div class="carte-sus">45</div>
+           Aleksandar Pavlović
+        </div>
+        <div class="spate">Goluri: 2<br>
+            Meciuri jucate: 16<br>
+            Assist-uri: 2<br>
+            Minute jucate: 978
+    </div>
+</div>
+</table>
+<table height=70% width=60% border="0">
+        <tr>
+<td colspan=3 style="border: 0;"><font face="Arial, sans-serif" size=20>Atacanti</td>
+</tr>
+<td style="border: 0;" align="center">
+<div class="principal17">
+
+        <div class="cartea">
+	<div class="fata" style="background-image: url('https://img.fcbayern.com/image/upload/t_cms-portrait/f_auto/w_660%2Cc_fill/q_auto/v1656615030/cms/public/images/fcbayern-com/players/spielerportraits/ganzkoerper/serge_gnabry.png');">
+            <div class="carte-sus">7</div>
+           Serge Gnabry
+        </div>
+        <div class="spate">Goluri: 5<br>
+            Meciuri jucate: 17<br>
+            Assist-uri: 1<br>
+            Minute jucate: 663
+    </div>
+</div>
+<td style="border: 0;" align="center">
+<div class="principal20">
+
+        <div class="cartea">
+	<div class="fata" style="background-image: url('https://img.fcbayern.com/image/upload/t_cms-portrait/f_auto/w_660%2Cc_fill/q_auto/v1691827799/cms/public/images/fcbayern-com/players/spielerportraits/ganzkoerper/harry-kane.png');">
+            <div class="carte-sus">9</div>
+           Harry Kane
+        </div>
+        <div class="spate">Goluri: 39<br>
+            Meciuri jucate: 39<br>
+            Assist-uri: 10<br>
+            Minute jucate: 3399
+    </div>
+</div>
+<td style="border: 0;" align="center">
+<div class="principal21">
+
+        <div class="cartea">
+	<div class="fata" style="background-image: url('https://img.fcbayern.com/image/upload/t_cms-portrait/f_auto/w_660%2Cc_fill/q_auto/v1656615390/cms/public/images/fcbayern-com/players/spielerportraits/ganzkoerper/leroy_sane.png');">
+            <div class="carte-sus">10</div>
+           Leroy Sané
+        </div>
+        <div class="spate">Goluri: 9<br>
+            Meciuri jucate: 38<br>
+            Assist-uri: 12<br>
+            Minute jucate: 2958
+    </div>
+</div>
+<td style="border: 0;" align="center">
+<div class="principal22">
+
+        <div class="cartea">
+	<div class="fata" style="background-image: url('https://img.fcbayern.com/image/upload/t_cms-portrait/f_auto/w_660%2Cc_fill/q_auto/v1627303340/cms/public/images/fcbayern-com/players/spielerportraits/ganzkoerper/kingsley_coman.png');">
+            <div class="carte-sus">11</div>
+           Kingsley Coman
+        </div>
+        <div class="spate">Goluri: 5<br>
+            Meciuri jucate: 27<br>
+            Assist-uri: 3<br>
+            Minute jucate: 1736
+    </div>
+</div>
+</tr>
+<td style="border: 0;" align="center">
+<div class="principal23">
+
+        <div class="cartea">
+	<div class="fata" style="background-image: url('https://img.fcbayern.com/image/upload/t_cms-portrait/f_auto/w_660%2Cc_fill/q_auto/v1627303391/cms/public/images/fcbayern-com/players/spielerportraits/ganzkoerper/choupo_moting.png');">
+            <div class="carte-sus">13</div>
+           Eric Maxim Choupo-Moting
+        </div>
+        <div class="spate">Goluri: 3<br>
+            Meciuri jucate: 30<br>
+            Assist-uri: 1<br>
+            Minute jucate: 660
+    </div>
+</div>
+<td style="border: 0;" align="center">
+<div class="principal23">
+
+        <div class="cartea">
+	<div class="fata" style="background-image: url('https://img.fcbayern.com/image/upload/t_cms-portrait/f_auto/w_660%2Cc_fill/q_auto/v1706780847/cms/public/images/fcbayern-com/players/spielerportraits/ganzkoerper/bryan-zaragoza.png');">
+            <div class="carte-sus">17</div>
+           Bryan Zaragoza
+        </div>
+        <div class="spate">Goluri: /<br>
+            Meciuri jucate: 3<br>
+            Assist-uri: /<br>
+            Minute jucate: 49
+    </div>
+</div>
+<td style="border: 0;" align="center">
+<div class="principal23">
+
+        <div class="cartea">
+	<div class="fata" style="background-image: url('https://img.fcbayern.com/image/upload/t_cms-portrait/f_auto/w_660%2Cc_fill/q_auto/v1629460365/cms/public/images/fcbayern-com/players/spielerportraits/ganzkoerper/thomas_mueller.png');">
+            <div class="carte-sus">25</div>
+           Thomas Müller
+        </div>
+        <div class="spate">Goluri: 5<br>
+            Meciuri jucate: 35<br>
+            Assist-uri: 8<br>
+            Minute jucate: 1773
+    </div>
+</div>
+<td style="border: 0;" align="center">
+<div class="principal23">
+
+        <div class="cartea">
+	<div class="fata" style="background-image: url('https://img.fcbayern.com/image/upload/t_cms-portrait/f_auto/w_660%2Cc_fill/q_auto/v1658820607/cms/public/images/fcbayern-com/players/spielerportraits/ganzkoerper/mathys-tel.png');">
+            <div class="carte-sus">39</div>
+           Mathys Tel
+        </div>
+        <div class="spate">Goluri: 8<br>
+            Meciuri jucate: 36<br>
+            Assist-uri: 4<br>
+            Minute jucate: 1060
+    </div>
+</div>
+</table>
+<td style="border: 0;"><font face="Arial, sans-serif" size=20>Antrenor</td>
+</tr>
+<td style="border: 0;" align="center">
+<div class="principal17">
+
+        <div class="cartea">
+	<div class="fata" style="background-image: url('https://img.fcbayern.com/image/upload/t_cms-portrait/f_auto/w_660%2Cc_fill/q_auto/v1680269674/cms/public/images/fcbayern-com/players/spielerportraits/ganzkoerper/Thomas-Tuchel.png');">
+            <div class="carte-sus"></div>
+          Thomas Tuchel
+        </div>
+        <div class="spate">Castig-uri: 331<br>
+            Meciuri jucate: 579<br>
+    </div>
+</div>
+</body>
+</html>
